@@ -9,6 +9,8 @@ const EventController = {
       res.status(500).json({ error: 'Internal Server Error' });
     }
   },
+  
+
 
   createEvent: async (req, res) => {
     try {
